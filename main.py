@@ -1,8 +1,9 @@
 from binance.client import Client
 from binance.enums import *
 #łączenie z serwerem api
-api_key ='9SdzbEaVa1HT0pegm8aTLhpc2GiVKoQmIw1eEntmk80qbLGgNhIfaqnGX85EB7YE'
-api_secret = 'zocVHhgbtkwfyVufMnciKv3LIooRoKehrbkSTWerKMpyMut3e0EsJQfUqc97Rf9M'
+api_key ='YOUR_ API_KEY'
+api_secret = 'YOUR_API_SECRET
+'
 import time
 from binance.client import Client
 symbol = 'BTCUSDT'
@@ -72,7 +73,7 @@ def monitor_trade():
             print("Zamknięto pozycję sprzedaży w wysokosci: ", close_quantity, "za cene: ", get_current_price())
 
 
-        time.sleep(3)  # Czekaj 5 sekund przed kolejnym sprawdzeniem ceny
+        time.sleep(3)  # Czekaj 3 sekund przed kolejnym sprawdzeniem ceny
 
 
 def get_entry_price():
