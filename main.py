@@ -2,8 +2,7 @@ from binance.client import Client
 from binance.enums import *
 #łączenie z serwerem api
 api_key ='YOUR_ API_KEY'
-api_secret = 'YOUR_API_SECRET
-'
+api_secret = 'YOUR_API_SECRET"
 import time
 from binance.client import Client
 symbol = 'BTCUSDT'
